@@ -1,0 +1,7 @@
+SQL ENCRYPT/DECRYPT
+
+1. EncryptByPassPhrase  and DecryptByPassPhrase 
+select EncryptByPassPhrase('key', 'abc' );
+select convert(varchar(255),DecryptByPassPhrase('key',0x0100000001E5B67F919CCC4B8EA10E97FC50764BF6B30EC4347C4E54))
+
+2. uniqueidentifier
